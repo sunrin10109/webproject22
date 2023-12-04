@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/popup.css">
+    <base href="/">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <h1><button onclick="location.href='main.html'"><img src="./images/logo.png" alt="로고"></button></h1>
+            <nav>
+                <ul>
+                    <li><button onclick="location.href='main.html#workout'">WORKOUT</button></li>
+                    <li><button onclick="location.href='journal.html'">JOURNAL</button></li>
+                    <li><button onclick="location.href='ware.html'">WARE</button></li>
+                    <li><button onclick="location.href='mypage.html'">MYPAGE</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main id="main">
+        <div class="container">
+            <div class="left">
+                <div class="title">
+                    <h1>Good Workout Is<br>The Root Of All Happiness</h1>
+                    <a href="main.html#introduce">Introduce</a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="slider">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <ul id="imgholder" class="imgs">
+                        <li><img src="./images/slider1.jpg" alt="슬라이더1"></li>
+                        <li><img src="./images/slider2.jpg" alt="슬라이더2"></li>
+                        <li><img src="./images/slider3.jpg" alt="슬라이더3"></li>
+                        <li><img src="./images/slider4.jpg" alt="슬라이더4"></li>
+                    </ul>
+                    <div class="bullets">
+                        <label for="slide1">&nbsp;</label>
+                        <label for="slide2">&nbsp;</label>
+                        <label for="slide3">&nbsp;</label>
+                        <label for="slide4">&nbsp;</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- introduce -->
+    <section id="introduce">
+        <div class="container">
+            <div class="title">
+                <p>Introduce</p>
+            </div>
+            <div class="about">
+                <div class="left">
+                    <h3>Why You Should Trust Us?<br><span>Get Know About Us!</span></h3>
+                    <p>헬스를 모르는 사람들을 위한 웹페이지</p>
+                    <p>몸의 건강을 유지하거나 혹은 건강을 유지하는 것을 넘어서 몸을 좋게 만들고 싶으나 따로 운동 방법이나 기구들을 찾아볼 시간이 없는 사람들에게 안성맞춤</p>
+                    <p>짧은 시간으로 많은 종류의 운동을 보다 정확한 자세를 알려주고 운동 종류에 따른 정보 공유</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/sunrin_official/" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./images/introduce_img.jpg" alt="내 사진">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- background -->
+    <div class="bg"></div>
+
+    <!-- workout -->
+    <section id="workout">
+        <div class="container">
+            <div class="title">
+                <p>Workout</p>
+                <h1>상체 <span># UPPER body</span></h1>
+            </div>  
+            <div class="upper">
+                <div class="ob">
+                    <div class="content">
+                        <h3>Back</h3>
+                        <p>보기 좋은 몸을 만들기 위한 첫 번째 단계입니다.
+                            수직/수평 운동으로 나뉘며, 각각 등의 프레임을 넓어 보이게 하는 효과와 등을 두껍게 만들어주는 효과가 있습니다.
+                            대표적인 운동으로는 <span>턱걸이, 덤벨로우, 바벨로우, 시티드로우</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Back</h1>
+                            <div class="video">
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/2i1v1UvsP_w?si=-MWG2NV1rQjCPUy7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/nWhS28U6bCY?si=v9rEl8qEv9eUdLCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Chest</h3>
+                        <p>앞 쪽에서 보았을 때 넓은 몸을 만들 수 있습니다.
+                            밀기/당기기 운동으로 나뉘며, 두 운동 종류 모두 펌핑감을 주지만, 딥스처럼 모양을 잡아주는 운동 효과도 있습니다.
+                            대표적인 운동으로는 <span>딥스, 벤치프레스, 케이블 크로스오버</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Chest</h1>
+                            <div class="video">
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/x9PGdHb2KLA?si=ZUAH1-Uvh_hptOzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/pQSfXvaQGas?si=NjlwEU2Wg1S2tiMG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Shoulder</h3>
+                        <p>대표적인 몸을 보기 좋게 만드는 운동입니다.<br>
+                            다른 운동보다 부상의 위험이 높으며, 초심자의 경우 자극을 찾기가 어렵다는 단점과 자극을 찾으면 운동 효과가 좋다는 장점도 있습니다.
+                            대표적인 운동으로는 <span>밀리터리 프레스, 아놀드 프레스, 사이드 레터널 레이즈</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Shoulder</h1>
+                            <div class="video">
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/bRizgl0IzoQ?si=MSZ7BYh4TTZqG7QH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe width="495" height="300" src="https://www.youtube.com/embed/YdhHnZxcpgY?si=sCGoxYreU5W_J2sZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">
+                <h1>하체 <span>#LOWER body</span></h1>
+            </div>  
+            <div class="lower">
+                <div class="ob">
+                    <div class="content">
+                        <h3>Upper Thigh</h3>
+                        <p>상체만 운동을 한 경우 오히려 보기 싫을 때가 있습니다. 이를 방지하기 위해 하는 운동의 성격이 강합니다.
+                            따로 자극을 찾기 위해서 노력할 필요가 없으며, 초보자도 쉽고 빠르게 중량을 올릴 수 있다는 장점이 있습니다.
+                            대표적인 운동으로는 <span>런지, 스쿼트, 레그 프레스, 레그 익스텐션</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Upper Thigh</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/cot__Hw59MU?si=DjO0ZFQ8XtJqioD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Hamstring</h3>
+                        <p>허벅지 앞 쪽과 더불어 같이 운동을 수행해 줘야 하는 부위입니다.
+                            이 역시 따로 자극을 찾을 필요가 없으며, 중량을 빠르게 올릴 수 있지만, 초보자의 경우 주의가 필요합니다.
+                            대표적인 운동으로는 <span>데드리프트, 레그컬</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Hamstring</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/y9mGy5RFwe4?si=tmMJt5K6CaIKhcBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Inner Thigh</h3>
+                        <p>근력 때문에 하는 운동보다는 살을 빼기 위한 운동의 성격이 강합니다.
+                            자극보다는 몸 전체가 힘들면서 동시에 타겟이 되는 느낌이 강합니다.
+                            대표적인 운동으로는 <span>사이드 플랭크, 와이드(크로스) 스쿼트</span> 등이 있습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Inner Thigh</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/0kLz4aVrrhA?si=VFm6gpIxolMfXEDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">
+                <h1>전신 <span>#WHOLE body</span></h1>
+            </div>  
+            <div class="lower">
+                <div class="ob">
+                    <div class="content">
+                        <h3>Burpee Test</h3>
+                        <p>유산소와 근력운동의 밸런스를 맞춘 운동입니다. 체지방이 많을 경우에는 턱걸이보다 좋은 효율을 보여줄 수 있으며, 기본적으로 유산소이기에 운동 효과가 탁월합니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Burpee Test</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/UeVDx20Jbs8?si=iV6CeOsSIRHubpWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Deadlift</h3>
+                        <p>명실상부 최고의 전신 운동으로, 무게를 빨리 늘릴 수 있다는 장점이 있지만, 자세를 확실하게 배우지 않을 경우 높은 확률로 허리 통증을 호소하기에, 운동법을 제대로 숙지하는 것을 추천합니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Deadlift</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/EBjYQeeBI-0?si=CLT8Ls5dLExSAaKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob">
+                    <div class="content">
+                        <h3>Squat</h3>
+                        <p>운동 방법에 따라 와이드 스쿼트, 싱글 레그 스쿼트 등으로 나뉘며, 초심자의 경우 맨몸 스쿼트를, 숙련자의 경우 싱글 레그 스쿼트를 추천합니다. 전신의 개념보다는 하체의 개념이 조금 강하지만, 중량을 추가할 경우 전신운동의 성질을 갖습니다.</p>
+                    </div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Squat</h1>
+                            <div class="video">
+                                <iframe width="600" height="400" src="https://www.youtube.com/embed/Fk9j6pQ6ej8?si=13Ybq7aXVL9PEYW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- recommend -->
+    <section id="youtube">
+        <div class="container">
+            <div class="title">
+                <p>Youtuber</p>
+                <h1>Our Experience Trainers</h1>
+            </div>
+            <div class="content">
+                <div class="col">
+                    <div class="team">
+                        <div class="img">
+                            <img src="./images/sadik.png" alt="추천 영상">
+                        </div>
+                        <div class="team-info">
+                            <h5>Sadik Hadzovic</h5>   
+                            <p class="link"><a class="btn" href="https://www.youtube.com/@SadikHadzovic1" target="_blank">Youtube <i class="fa-brands fa-youtube"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team">
+                        <div class="img">
+                            <img src="./images/rambod.png" alt="추천 영상">
+                        </div>
+                        <div class="team-info">
+                            <h5>Hany Rambod</h5>
+                            <p class="link"><a class="btn" href="https://www.youtube.com/@hanyrambod_FST7" target="_blank">Youtube <i class="fa-brands fa-youtube"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team">
+                        <div class="img">
+                            <img src="./images/serige.png" alt="추천 영상">
+                        </div>
+                        <div class="team-info">
+                            <h5>Sergi Constance</h5>
+                            <p class="link"><a class="btn" href="https://www.youtube.com/@SergiConstance" target="_blank">Youtube <i class="fa-brands fa-youtube"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team">
+                        <div class="img">
+                            <img src="./images/panda.png" alt="추천 영상">
+                        </div>
+                        <div class="team-info">
+                            <h5>Simeon Panda</h5>
+                            <p class="link"><a class="btn" href="https://www.youtube.com/@SimeonPanda" target="_blank">Youtube <i class="fa-brands fa-youtube"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- contact -->
+     <footer id="contact">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <div class="title">
+                        <h5>Address</h5>
+                    </div>
+                    <div class="content">
+                        <p class="icon"><i class="fa fa-map-marker-alt me-3"></i> 123 Street, New York, USA</p>
+                        <p class="icon"><i class="fa fa-phone-alt me-3"></i> 010-1234-5678</p>
+                        <p class="icon"><i class="fa fa-envelope me-3"></i> info@example.com</p>
+                        <p class="icon"><a href="https://www.instagram.com/sunrin_official/" target="_blank"><i class="fa-brands fa-instagram"></i> instagram</a></p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="title">
+                        <h5>Services</h5>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><i class="fas fa-sharp fa-light fa-angle-right"></i> Workout</li>
+                            <li><i class="fas fa-sharp fa-light fa-angle-right"></i> Recommend</li>
+                            <li><i class="fas fa-sharp fa-light fa-angle-right"></i> Journal</li>
+                            <li><i class="fas fa-sharp fa-light fa-angle-right"></i> Ware</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright © WORKIN'. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="back-to-top"><i class="fas fa-sharp fa-light fa-angle-up"></i></div>
+     </footer>
+
+     <!-- js 영역 -->
+    <script src="./js/script.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+</html>

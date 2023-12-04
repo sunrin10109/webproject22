@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYPAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/mypage.css">
+    <base href="/" />
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <h1><button onclick="location.href='main.html'"><img src="./images/logo.png" alt="로고"></button></h1>
+            <nav>
+                <ul>
+                    <li><button onclick="location.href='main.html'">MAIN</button></li>
+                    <li><button onclick="location.href='journal.html'">JOURNAL</button></li>
+                    <li><button onclick="location.href='ware.html'">WARE</button></li>
+                    <li><button onclick="location.href='mypage.html'"><span>MYPAGE</span></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="mypage">
+        <div class="container">
+            <div class="content">
+                <div class="left">
+                    <div class="user">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <h5>user123</h5>
+                        <p>email : <span>example@gmail.com</span></p><hr>
+                        <p>name : <span>user1</span></p><hr>
+                        <p>phone : <span>010-1234-5678</span></p>
+                    </div>
+                </div>  
+                <div class="right">
+                    <div class="title">My Page</div>
+                    <h3>Daily Goal</h3><textarea name="goal" autocomplete="off"></textarea>
+                    <br><h3>Comment</h3><textarea name="goal" autocomplete="off"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.container{
+    font-family: "gmarket-m";
+}
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFBold.ttf");
+    font-family: "gmarket-b";
+}
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf");
+    font-family: "gmarket-m";
+}
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFLight.ttf");
+    font-family: "gmarket-l";
+}
+
+#workout .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#workout .modal-content {
+    background-color: white;
+    color: black;
+    margin: 6rem auto;
+    padding: 1rem 1.5rem;
+    height: 70%;
+    width: 70%;
+}
+#workout .modal-content h1{
+    font-size: 1.5rem;
+    font-family: "gmarket-b";
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+#workout .modal-content .video{
+    margin-top: 4rem;
+    justify-content: center;
+}
+#workout .modal-content .video iframe{
+    margin: 0 auto;
+}
+#workout .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#workout .close:hover, 
+#workout .close:focus {
+    color: var(--dark);
+    text-decoration: none;
+    cursor: pointer;
+}

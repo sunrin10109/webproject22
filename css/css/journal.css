@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200&display=swap');
+:root {
+    --primary: #348cfffe;
+    --light: #74b0fffe;   
+    --dark: #0054c3fe;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:link, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto; 
+    font-family: "gmarket-m";
+}
+
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFBold.ttf");
+    font-family: "gmarket-b";
+}
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf");
+    font-family: "gmarket-m";
+}
+@font-face{
+    src: url("/fonts/GmarketSansTTF/GmarketSansTTFLight.ttf");
+    font-family: "gmarket-l";
+}
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px 0px hsl(0deg 0% 0% / 0.38);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header button{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+header h1 button{
+    padding: auto;
+    margin: auto 2rem; 
+}
+header nav ul{
+    display: flex;
+    
+}
+header .container nav ul li button{
+    margin: auto 2rem;
+    font-size: 0.9rem;
+}
+header .container nav ul li button span,
+header nav ul li button:hover{
+    color: var(--primary);
+}
+header nav ul li button:active{
+    color: black;
+}
+
+/* main */
+section{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+    display: flex;
+}
+#journal .container{
+    margin-top: 4rem;
+    justify-content: center;
+    border-radius: 0.8px solid;
+}
+#journal .left{
+    float: left;
+    padding: 1rem 0rem 2rem;
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid var(--dark);
+}
+#journal .left .content table{
+    margin-left:auto; 
+    margin-right:auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid var(--dark);
+    justify-content: center;
+}
+#journal .left .content table tr{
+    text-align: center;
+}
+#journal .left .content table th{
+    height: 1rem;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+#journal .left .content table th,
+#journal .left .content table td{
+    padding: 0.3rem 0rem;
+}
+#journal .left .content table th:first-child{
+    width: 70%;
+}
+#journal .left .content table th:last-child{
+    width: 30%;
+}
+#journal .left .content table tr:nth-child(even){
+    background-color: rgb(205, 224, 255);
+}
+#journal .right{
+    float: right;
+    padding: 1rem 2rem 1rem;
+    width: 39%;
+    height: 28rem;    
+    border-radius: 15px;
+    border: 1px solid var(--dark);
+}
+#journal .left .title h1, .right .title h1{
+    color: rgb(0, 37, 173);
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+#journal .left .title p {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 6px 25px;
+    font-size: 0.9rem;
+    border-radius: 50rem;
+    border: 1px solid var(--light);
+    color: var(--primary);
+    margin-bottom: 2rem;
+}
+#journal .right .content form{
+    font-weight: 600;
+}
+#journal .right .content p{
+    margin-left: 15px;
+    margin-bottom: 3px;
+    color: var(--dark);
+}
+#journal .right .content form input{
+    width: 100%;
+    height: 2rem;
+}
+#journal .right .content form textarea{
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    padding-top: 0.7rem;
+}
+#journal .right .content form input,
+#journal .right .content form textarea{
+    font-family: "gmarket-m";
+    font-size: 15px;
+    padding-left: 1rem;
+    border: 1px solid var(--light);
+    border-radius: 15px;
+    outline: none;
+    color: var(--dark);
+    vertical-align: top;
+}
+#journal .right .content form button{
+    padding: 8px 25px;
+    text-align: center;
+    margin: 1rem auto 0rem;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    background-color: rgb(169, 202, 255);
+    font-family: "gmarket-m";
+}

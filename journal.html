@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOURNAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/journal.css">
+    <base href="/" />
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <h1><button onclick="location.href='main.html'"><img src="./images/logo.png" alt="로고"></button></h1>
+            <nav>
+                <ul>
+                    <li><button onclick="location.href='main.html'">MAIN</button></li>
+                    <li><button onclick="location.href='journal.html'"><span>JOURNAL</span></button></li>
+                    <li><button onclick="location.href='ware.html'">WARE</button></li>
+                    <li><button onclick="location.href='mypage.html'">MYPAGE</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- introduce -->
+    <section id="introduce">
+
+    </section>
+
+    <!-- main -->
+    <section id="journal">
+        <div class="container">
+            <div class="left">
+                <div class="title">
+                    <h1>My Journal</h1>    
+                </div>
+                <div class="content">
+                    <table border="1">
+                        <tr>
+                            <th>title</th>
+                            <th>date</th>
+                        </tr>
+                        <tr>
+                            <td>Day 1</td>
+                            <td>2023-01-01</td>
+                        </tr>
+                        <tr>
+                            <td>Day 2</td>
+                            <td>2023-02-02</td>
+                        </tr>
+                        <tr>
+                            <td>Day 3</td>
+                            <td>2023-03-03</td>
+                        </tr>
+                        <tr>
+                            <td>Day 4</td>
+                            <td>2023-04-04</td>
+                        </tr>
+                        <tr>
+                            <td>Day 5</td>
+                            <td>2023-05-05</td>
+                        </tr>
+                        <tr>
+                            <td>Day 6</td>
+                            <td>2023-06-06</td>
+                        </tr>
+                        <tr>
+                            <td>Day 7</td>
+                            <td>2023-07-07</td>
+                        </tr>
+                        <tr>
+                            <td>Day 8</td>
+                            <td>2023-08-08</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <h1>Write</h1>
+                </div>
+                <div class="content">
+                    <form action="#" accept-charset="utf-8" name="journal" method="post">
+                        <p>title</p><input type="text" name="name" autocomplete="off" minlength="1" placeholder="제목을 입력하세요."><br><br>
+                        <p>content</p><textarea name="detail" autocomplete="off" placeholder="내용을 입력하세요."></textarea>
+                        <button type="submit"  onclick='alert("저장되었습니다");'>CREATE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
